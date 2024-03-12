@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.login{
+    
+    height: px;
+    width: 300px;
+    border: 2px solid rgb(118, 118, 118);
+    border-color: rgb(238, 234, 234);
+    padding: 20px;
+}
+
+
+.login2{
+    height: 25px;
+    width: 300px;
+    border: 2px solid rgb(118, 118, 118);
+    border-color: rgb(238, 234, 234);
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login > h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.login > form{
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+#username{
+    padding: 2%;
+    margin-bottom: 15px;
+    width: 250px;
+    border: 2px solid rgb(238, 234, 234);
+    background-color: rgba(222, 221, 221, 0.386);
+}
+
+#password{
+    padding: 2%;
+    margin-bottom: 15px;
+    width: 250px;
+    border: 2px solid rgb(238, 234, 234);
+    background-color: rgba(222, 221, 221, 0.386);
+
+}
+
+.button{
+    width: 265px;
+    height: 30px;
+    background-color: rgb(6, 235, 239);
+    border: hidden;
+    border-radius: 10px;
+    
+    
+}
+
+.button:hover{
+    background-color: aqua;
+}
+
+.forgot > a{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: rgb(113, 112, 112);
+}
+.login2>a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.phone > img{
+    height: 600px;
+    width: 400px;
+}
+nav {
+     display: flex;
+     gap: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#click:checked~nav {
+    left: 0%;
+    transition: all 0.3s ease;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+#language{
+    border: none;
+}
